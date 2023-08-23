@@ -10,14 +10,4 @@ Ce projet est une démonstration de l'utilisation de plusieurs technologies pour
 - [PostCSS](https://postcss.org/): Un outil de transformation de CSS avec des plugins.
 - [ESLint](https://eslint.org/): Un outil de linting pour JavaScript et JSX.
 - [Redux](https://redux.js.org/): Un gestionnaire d'état pour les applications JavaScript.
-- [nanoid](https://www.npmjs.com/package/nanoid/): Une bibliothèque JavaScript pour la génération d'identifiants uniques.
-
-## Installation
-
-Pour exécuter ce projet localement, vous devrez installer les dépendances. Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre système.
-
-1. Clonez ce dépôt :
-
-   ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
-   ```
+- [Nanoid](https://www.npmjs.com/package/nanoid/): Une bibliothèque JavaScript pour la génération d'identifiants uniques.

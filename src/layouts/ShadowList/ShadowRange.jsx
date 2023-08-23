@@ -1,21 +1,22 @@
 import { useDispatch } from "react-redux";
-import { updateBoxValue } from "../../features/boxProperties";
+import { updateShadowValue } from "../../features/shadows";
 
-export default function BoxRange({ inputData }) {
+export default function ShadowRange({ inputData, shadowID }) {
   const dispatch = useDispatch();
 
   function handleInputs(e) {
     dispatch(
-      updateBoxValue({
+      updateShadowValue({
         inputNumber: inputData.inputNumber,
         value: e.target.value,
+        shadowID,
       })
     );
   }
 
   return (
-    <div className="my-6">
-      <div className="flex justify-between">
+    <div className="my-4">
+      <div className="flex justify-between items-baseline">
         <p> {inputData.name} </p>
         <div className="flex items-baseline mb-2">
           <input

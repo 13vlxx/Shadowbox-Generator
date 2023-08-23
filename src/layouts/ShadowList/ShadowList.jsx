@@ -19,7 +19,7 @@ export default function ShadowList() {
       </div>
       <ul>
         {shadows.map((shadow, index) => (
-          <Shadow panelNumber={index + 1} key={shadow.id} />
+          <Shadow shadow={shadow} panelNumber={index + 1} key={shadow.id} />
         ))}
       </ul>
     </div>

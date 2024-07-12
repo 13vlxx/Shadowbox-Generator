@@ -24,6 +24,3 @@ COPY --from=build /app/dist /usr/share/nginx/html
 
 # Expose le port 80 pour le serveur web
 EXPOSE 80
-
-# Commande par défaut pour démarrer Nginx
-CMD ["nginx", "-g", "daemon off;"]
